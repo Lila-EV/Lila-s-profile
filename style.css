@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+
+body {
+  background-image: url('http://dl.glitter-graphics.net/pub/3765/3765981fuwojs6u9x.gif');
+  background-attachment: fixed;
+  background-repeat: repeat;
+  color: black;
+  font-family: 'Jua', sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+  font-size: 17px;
+  cursor: url('https://artwork.neocities.org/pixels/cursors/566841kngrgml43z.gif'), auto;
+}
+
+h1, h2, h3{
+  font-family: 'Coiny', system-ui;
+}
+h1{
+  font-size: 36px;
+  color:#3F014D;
+  text-shadow: 0px 5px 5px rgba(239, 137, 236, 0.81);
+}
+
+h2{
+  font-size: 30px;
+  color: #7B0994;
+}
+
+a {
+  font-family: 'Jua', sans-serif;
+  text-decoration: none;
+  color: #e16be1;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+a:hover{
+  color: #ba09ba;
+}
+
+.button-yellow{
+  background-color: #F7DB4F;
+  border-radius: 5%;
+  padding: 15px 20px;
+  border: 0px;
+}
+
+.button-yellow:hover{
+  background-color: #68eb56;
+  color: #ba09ba;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+}
+
+.card-white{
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgba(228, 16, 224, 0.717);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#introduction p {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.circle-image {
+  border-radius: 20%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline i{
+  font-size: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
