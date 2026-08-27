@@ -44,6 +44,7 @@ a:hover{
   border-radius: 5%;
   padding: 15px 20px;
   border: 0px;
+  box-shadow: 10px 5px rgba(228, 16, 224, 0.717);
 }
 
 .button-yellow:hover{
@@ -58,10 +59,10 @@ a:hover{
 
 .card-purple{
   background-color: rgb(246, 212, 242);
-  padding: 30px;
+  padding: 1em 2em 2em 2em;
+  margin-bottom: 3em;
   box-shadow: 0px 10px 30px rgba(228, 16, 224, 0.717);
   border-radius: 4px;
-  margin: 20px 0px;
   text-align: center;
 }
 
